@@ -1,0 +1,68 @@
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 13.229166 13.229167"
+   height="50"
+   width="50">
+  <g>
+    <path
+       id="path12"
+       d="M 0.26458333,2.6458333 H 12.964583"
+       style="stroke-width:0.52916667;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <circle
+       r="0.25"
+       cy="1.5"
+       cx="1.25"
+       id="path14"
+       style="fill-rule:evenodd;stroke-width:0.282021;fill-opacity:1" />
+    <circle
+       r="0.25"
+       cy="1.5"
+       cx="2"
+       id="path16"
+       style="fill-rule:evenodd;stroke-width:0.257002;fill-opacity:1" />
+    <circle
+       r="0.25"
+       cy="1.5"
+       cx="2.75"
+       id="path18"
+       style="fill-rule:evenodd;stroke-width:0.213696;fill-opacity:1" />
+    <rect
+       ry="0.54502803"
+       y="3.6335204"
+       x="1.1906248"
+       height="3.7243583"
+       width="3.6335204"
+       id="rect20"
+       style="fill-opacity:0.388664;fill-rule:evenodd;stroke-width:0.52916667;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       ry="0.55397701"
+       y="0.39773533"
+       x="0.39773497"
+       height="12.433697"
+       width="12.433697"
+       id="rect845"
+       style="fill-opacity:0.388664;stroke-width:0.52916667;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       id="path847"
+       d="M 6.0854167,3.96875 H 11.641667"
+       style="stroke-width:0.52916667;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       id="path849"
+       d="M 6.0854167,5.2916667 H 11.641667"
+       style="stroke-width:0.52916667;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       id="path851"
+       d="M 6.0854167,6.6145833 H 11.641667"
+       style="stroke-width:0.52916667;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       ry="0.5284282"
+       y="8.1151218"
+       x="1.1932108"
+       height="3.6989949"
+       width="10.842745"
+       id="rect853"
+       style="fill-opacity:0.388664;stroke-width:0.52916667;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+</svg>

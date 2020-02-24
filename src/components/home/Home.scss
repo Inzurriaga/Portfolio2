@@ -1,0 +1,78 @@
+#home {
+  top: 0;
+  background-color: #1d1d1d;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(50vw);
+  backface-visibility: hidden;
+  canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+  }
+}
+
+.home-text {
+  position: relative;
+  z-index: 1;
+  h1 {
+    font-size: 5em;
+    z-index: 1;
+    color: #cacaca;
+    margin: 0;
+    position: relative;
+    font-family: 'Righteous', cursive;
+  }
+  p {
+    color: #ff005d;
+    font-size: 2em;
+    font-family: 'Righteous', cursive;
+  }
+  @for $i from 1 through 18 {
+    span:nth-child(#{$i})  {
+        display: inline-block;
+        transform: translatex(10px);
+        opacity: 0;
+        animation: 1s name-anim forwards;
+        animation-delay: $i * 0.13s;
+    }
+  }
+  .space {
+    display: block;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  svg {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    path {
+      fill: #ff005d;
+      transition: 0.25s;
+    }
+  }
+  svg:hover {
+    path {
+      fill: #b90044;
+    }
+  }
+}
+
+@keyframes name-anim {
+  0% {
+    transform: translatex(10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translatex(0px);
+    opacity: 1;
+  }
+}

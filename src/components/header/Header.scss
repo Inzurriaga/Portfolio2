@@ -1,0 +1,92 @@
+nav {
+  background-color: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  top: 0;
+  left: -70px;
+  width: 70px;
+  position: fixed;
+  z-index: 1000;
+  transform: translateZ(100vw);
+  animation: 0.5s nav-bar forwards;
+  animation-delay: 3s;
+  cursor: pointer;
+  svg {
+    stroke: #ffffff;
+    fill: none;
+    transition: 0.2s;
+    background-color: #171717;
+  }
+}
+
+.nav-button {
+  margin: 20px 0 20px 0;
+  position: relative;
+  background-color: #171717;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  div {
+    z-index: -1;
+    width: 150px;
+    background-color: #171717;
+    height: 50px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    transition: 0.5s;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 0 25px 25px 0;
+    padding: auto;
+    p {
+      vertical-align: center;
+      margin: 0;
+    }
+  }
+}
+
+.home:hover {
+  svg {
+    stroke: #ff005d;
+  }
+  div {
+    color: #ff005d;
+    right: -150px;
+    font-size: 2em;
+  }
+}
+
+.about:hover {
+  svg {
+    stroke: #27b3c0;
+  }
+  div {
+    color: #27b3c0;
+    right: -150px;
+    font-size: 2em;
+  }
+}
+
+.projects:hover {
+  svg {
+    stroke: #82e600;
+  }
+  div {
+    color: #82e600;
+    right: -150px;
+    font-size: 2em;
+  }
+}
+
+@keyframes nav-bar {
+  0%  {
+    left: -70px;
+  }
+  100% {
+    left: 0;
+  }
+}

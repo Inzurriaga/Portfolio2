@@ -1,0 +1,102 @@
+#projects {
+  top: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #1d1d1d;
+  transform: rotateY(180deg) translateZ(50vw);
+  backface-visibility: hidden;
+  .container {
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 100vh;
+    box-sizing: border-box;
+    &::-webkit-scrollbar-track {
+      background: rgba($color: #000000, $alpha: 0.0);
+    }
+  }
+}
+
+.project-card {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    height: 80%;
+    width: 50%;
+    transition: 1s;
+    &::after {
+      content: "";
+      border-radius: 10px;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      transition: 1s;
+      background-color: rgba($color: #000000, $alpha: 0.0);
+    }
+  }
+  img {
+    width: 55%;
+  }
+  &:hover {
+    .image-container {
+      transform: translate(40%, 0);
+      &::after {
+        background-color: rgba($color: #000000, $alpha: 0.5);
+      }
+    }
+    .tech {
+      color: #cacaca;
+    }
+    .description-container {
+      opacity: 1;
+      left: 10%;
+    }
+  }
+}
+
+.tech {
+  text-align: center;
+  color: rgba($color: #000000, $alpha: 0.0);
+  font-size: 2em;
+  position: absolute;
+  transition: 1s;
+  z-index: 2;
+}
+
+.description-container {
+  opacity: 0;
+  left: 0%;
+  top: 50%;
+  transform: translate(0, -50%);
+  position: absolute;
+  transition: 1s;
+  width: 30%;
+  color: #cacaca;
+  h2 {
+    color: #82e600;
+    text-align: center;
+    font-size: 3em;
+  }
+  svg {
+    height: 50px;
+    width: 50px;
+    fill: #82e600;
+    transition: 0.5s;
+    &:hover {
+      fill: #5ba100;
+    }
+  }
+  .link {
+    display: flex;
+    justify-content: space-around;
+  }
+}
